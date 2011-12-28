@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55F4C26714ABB52500308C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F4C26614ABB52500308C57 /* UIKit.framework */; };
+		55F4C26914ABB52500308C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F4C26814ABB52500308C57 /* Foundation.framework */; };
+		55F4C26B14ABB52500308C57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F4C26A14ABB52500308C57 /* CoreGraphics.framework */; };
+		55F4C27114ABB52500308C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55F4C26F14ABB52500308C57 /* InfoPlist.strings */; };
+		55F4C27314ABB52500308C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4C27214ABB52500308C57 /* main.m */; };
+		55F4C27714ABB52500308C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4C27614ABB52500308C57 /* AppDelegate.m */; };
+		55F4C27A14ABB52500308C57 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4C27914ABB52500308C57 /* MasterViewController.m */; };
+		55F4C27D14ABB52500308C57 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4C27C14ABB52500308C57 /* DetailViewController.m */; };
+		55F4C28014ABB52500308C57 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F4C27E14ABB52500308C57 /* MasterViewController.xib */; };
+		55F4C28314ABB52500308C57 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55F4C28114ABB52500308C57 /* DetailViewController.xib */; };
+		55F4C28D14ABC15C00308C57 /* intermittentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4C28C14ABC15C00308C57 /* intermittentVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55F4C26214ABB52500308C57 /* Zombie Tester (ARC).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zombie Tester (ARC).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F4C26614ABB52500308C57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55F4C26814ABB52500308C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55F4C26A14ABB52500308C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55F4C26E14ABB52500308C57 /* Zombie Tester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zombie Tester-Info.plist"; sourceTree = "<group>"; };
+		55F4C27014ABB52500308C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55F4C27214ABB52500308C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55F4C27414ABB52500308C57 /* Zombie Tester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zombie Tester-Prefix.pch"; sourceTree = "<group>"; };
+		55F4C27514ABB52500308C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55F4C27614ABB52500308C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55F4C27814ABB52500308C57 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		55F4C27914ABB52500308C57 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		55F4C27B14ABB52500308C57 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		55F4C27C14ABB52500308C57 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55F4C27F14ABB52500308C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		55F4C28214ABB52500308C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		55F4C28B14ABC15C00308C57 /* intermittentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intermittentVC.h; sourceTree = "<group>"; };
+		55F4C28C14ABC15C00308C57 /* intermittentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = intermittentVC.m; sourceTree = "<group>"; };
+		55F4C29114ABC2E200308C57 /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55F4C25F14ABB52500308C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4C26714ABB52500308C57 /* UIKit.framework in Frameworks */,
+				55F4C26914ABB52500308C57 /* Foundation.framework in Frameworks */,
+				55F4C26B14ABB52500308C57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55F4C25714ABB52500308C57 = {
+			isa = PBXGroup;
+			children = (
+				55F4C26C14ABB52500308C57 /* Zombie Tester */,
+				55F4C26514ABB52500308C57 /* Frameworks */,
+				55F4C26314ABB52500308C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55F4C26314ABB52500308C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55F4C26214ABB52500308C57 /* Zombie Tester (ARC).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55F4C26514ABB52500308C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55F4C26614ABB52500308C57 /* UIKit.framework */,
+				55F4C26814ABB52500308C57 /* Foundation.framework */,
+				55F4C26A14ABB52500308C57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55F4C26C14ABB52500308C57 /* Zombie Tester */ = {
+			isa = PBXGroup;
+			children = (
+				55F4C27514ABB52500308C57 /* AppDelegate.h */,
+				55F4C27614ABB52500308C57 /* AppDelegate.m */,
+				55F4C27814ABB52500308C57 /* MasterViewController.h */,
+				55F4C27914ABB52500308C57 /* MasterViewController.m */,
+				55F4C27B14ABB52500308C57 /* DetailViewController.h */,
+				55F4C27C14ABB52500308C57 /* DetailViewController.m */,
+				55F4C27E14ABB52500308C57 /* MasterViewController.xib */,
+				55F4C28114ABB52500308C57 /* DetailViewController.xib */,
+				55F4C26D14ABB52500308C57 /* Supporting Files */,
+				55F4C28B14ABC15C00308C57 /* intermittentVC.h */,
+				55F4C28C14ABC15C00308C57 /* intermittentVC.m */,
+				55F4C29114ABC2E200308C57 /* helper.h */,
+			);
+			path = "Zombie Tester";
+			sourceTree = "<group>";
+		};
+		55F4C26D14ABB52500308C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55F4C26E14ABB52500308C57 /* Zombie Tester-Info.plist */,
+				55F4C26F14ABB52500308C57 /* InfoPlist.strings */,
+				55F4C27214ABB52500308C57 /* main.m */,
+				55F4C27414ABB52500308C57 /* Zombie Tester-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55F4C26114ABB52500308C57 /* Zombie Tester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F4C28614ABB52500308C57 /* Build configuration list for PBXNativeTarget "Zombie Tester" */;
+			buildPhases = (
+				55F4C25E14ABB52500308C57 /* Sources */,
+				55F4C25F14ABB52500308C57 /* Frameworks */,
+				55F4C26014ABB52500308C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zombie Tester";
+			productName = "Zombie Tester";
+			productReference = 55F4C26214ABB52500308C57 /* Zombie Tester (ARC).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55F4C25914ABB52500308C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "CELLULAR GmbH";
+			};
+			buildConfigurationList = 55F4C25C14ABB52500308C57 /* Build configuration list for PBXProject "Zombie Tester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55F4C25714ABB52500308C57;
+			productRefGroup = 55F4C26314ABB52500308C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F4C26114ABB52500308C57 /* Zombie Tester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55F4C26014ABB52500308C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4C27114ABB52500308C57 /* InfoPlist.strings in Resources */,
+				55F4C28014ABB52500308C57 /* MasterViewController.xib in Resources */,
+				55F4C28314ABB52500308C57 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55F4C25E14ABB52500308C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F4C27314ABB52500308C57 /* main.m in Sources */,
+				55F4C27714ABB52500308C57 /* AppDelegate.m in Sources */,
+				55F4C27A14ABB52500308C57 /* MasterViewController.m in Sources */,
+				55F4C27D14ABB52500308C57 /* DetailViewController.m in Sources */,
+				55F4C28D14ABC15C00308C57 /* intermittentVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55F4C26F14ABB52500308C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F4C27014ABB52500308C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55F4C27E14ABB52500308C57 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F4C27F14ABB52500308C57 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		55F4C28114ABB52500308C57 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55F4C28214ABB52500308C57 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55F4C28414ABB52500308C57 /* ARC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = ARC;
+		};
+		55F4C28714ABB52500308C57 /* ARC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Tester/Zombie Tester-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Tester/Zombie Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME) (ARC)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = ARC;
+		};
+		55F4C28914ABB86000308C57 /* No ARC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DO_NOT_USE_ARC=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = "No ARC";
+		};
+		55F4C28A14ABB86000308C57 /* No ARC */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zombie Tester/Zombie Tester-Prefix.pch";
+				INFOPLIST_FILE = "Zombie Tester/Zombie Tester-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME) (No ARC)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "No ARC";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55F4C25C14ABB52500308C57 /* Build configuration list for PBXProject "Zombie Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4C28414ABB52500308C57 /* ARC */,
+				55F4C28914ABB86000308C57 /* No ARC */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ARC;
+		};
+		55F4C28614ABB52500308C57 /* Build configuration list for PBXNativeTarget "Zombie Tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F4C28714ABB52500308C57 /* ARC */,
+				55F4C28A14ABB86000308C57 /* No ARC */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = ARC;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55F4C25914ABB52500308C57 /* Project object */;
+}
